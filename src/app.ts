@@ -7,7 +7,7 @@ import { connectDB, readCollection, writeCollection } from "./db/mongodb";
 
 const app = express();
 const JWT_SECRET = process.env.JWT_SECRET || "fitzone_super_secret_jwt_key_2026";
-const ADMIN_USERNAME = process.env.ADMIN_USERNAME || "admin";
+const ADMIN_IDENTIFIER = process.env.ADMIN_EMAIL || process.env.ADMIN_USERNAME || "admin";
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "fitzone2026";
 
 // Middlewares
@@ -254,7 +254,7 @@ app.post("/api/admin/login", async (req, res) => {
     return res.status(400).json({ error: "Username and password are required." });
   }
 
-  if (trimmedUsername.toLowerCase() === ADMIN_USERNAME.toLowerCase() && trimmedPassword === ADMIN_PASSWORD) {
+  if (trimmedUsername.toLowerCase() === ADMIN_IDENTIFIER.toLowerCase() && trimmedPassword === ADMIN_PASSWORD) {
     // Generate admin session token
     const token = jwt.sign(
       { username: "admin", role: "admin" },

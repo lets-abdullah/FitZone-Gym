@@ -73,11 +73,11 @@ NODE_ENV=development
 JWT_SECRET=fitzone_super_secret_jwt_key_2026
 
 # Administrator Credentials
-ADMIN_USERNAME=admin
+ADMIN_EMAIL=admin
 ADMIN_PASSWORD=fitzone2026
 
 # Database Configuration (Optional)
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.abcde.mongodb.net/fitzone?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.abcde.mongodb.net/fitzone?retryWrites=true&w=majority
 MONGODB_DB=fitzone
 
 # Production URLs (CORS validation & routing)
@@ -109,7 +109,7 @@ To access the Admin Console (`/admin.html`), authenticate with:
 - **Username**: `admin`
 - **Password**: `fitzone2026`
 
-*To change these credentials, configure `ADMIN_USERNAME` and `ADMIN_PASSWORD` in your environment variables.*
+*To change these credentials, configure `ADMIN_EMAIL` and `ADMIN_PASSWORD` in your environment variables.*
 
 ---
 
@@ -125,9 +125,9 @@ Deploy the Express server to Render:
    - `PORT`: Set dynamically by Render.
    - `NODE_ENV`: `production`
    - `JWT_SECRET`: A strong random string for secure JWT token signing.
-   - `ADMIN_USERNAME`: Your admin username (e.g. `admin`).
+   - `ADMIN_EMAIL`: Your admin username/email (e.g. `admin`).
    - `ADMIN_PASSWORD`: Your secure admin password.
-   - `MONGODB_URI`: Your production MongoDB Atlas cluster URI.
+   - `MONGO_URI`: Your production MongoDB Atlas cluster URI.
    - `MONGODB_DB`: Your production database name.
    - `FRONTEND_URL`: The URL of your Vercel frontend (e.g., `https://your-app.vercel.app`) to authorize cross-origin API calls.
 
