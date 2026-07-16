@@ -1,14 +1,22 @@
 node_modules/
+**/node_modules/
 build/
 dist/
+**/dist/
 coverage/
 .DS_Store
 *.log
 .env*
 !.env.example
+!backend/.env.example
+!frontend/.env.example
 
 # Local fallback database files (exclude seeds)
 data/mongodb_users.json
 data/mongodb_members.json
 data/mongodb_orders.json
 data/mongodb_logs.json
+frontend/data/mongodb_users.json
+frontend/data/mongodb_members.json
+frontend/data/mongodb_orders.json
+frontend/data/mongodb_logs.json

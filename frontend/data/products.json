@@ -1,0 +1,118 @@
+[
+  {
+    "id": "whey-isolate",
+    "name": "UltraPure Whey Isolate",
+    "brand": "FitZone Science",
+    "category": "Protein",
+    "image": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&q=80&w=600",
+    "description": "Premium grass-fed micro-filtered whey protein isolate with ultra-fast bio-absorption rate. Zero sugar, zero lactose, maximum muscle repair.",
+    "price": "$64.99",
+    "nutritionFacts": {
+      "servingSize": "1 Scoop (30g)",
+      "protein": "26g",
+      "carbs": "1g",
+      "fat": "0.5g",
+      "calories": "110 kcal",
+      "calcium": "120mg",
+      "sodium": "50mg"
+    },
+    "ingredients": [
+      "Micro-filtered Whey Protein Isolate",
+      "Natural Vanilla Bean Extract",
+      "Sunflower Lecithin",
+      "Stevia Leaf Sweetener"
+    ],
+    "benefits": [
+      "Accelerates post-workout muscle protein synthesis",
+      "Easily digestible, lactose-free and gluten-free formula",
+      "Provides premium EAAs & BCAAs for athletic muscle preservation"
+    ],
+    "usage": "Mix 1 scoop with 8–10 oz of cold water or nut milk in a shaker immediately following your workout or as a mid-morning high-protein snack."
+  },
+  {
+    "id": "pre-workout",
+    "name": "Ignite Focus Pre-Workout",
+    "brand": "FitZone Science",
+    "category": "Energy",
+    "image": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&q=80&w=600",
+    "description": "High-intensity mental drive and nitric oxide boosting complex designed to elevate workouts to absolute peak performance.",
+    "price": "$48.99",
+    "nutritionFacts": {
+      "servingSize": "1 Scoop (14g)",
+      "lCitrulline": "6000mg",
+      "betaAlanine": "3200mg",
+      "caffeineAnhydrous": "250mg",
+      "alphaGPC": "300mg",
+      "calories": "5 kcal"
+    },
+    "ingredients": [
+      "L-Citrulline Malate 2:1",
+      "Beta-Alanine (CarnoSyn)",
+      "L-Tyrosine",
+      "Anhydrous Caffeine",
+      "Infinergy (Di-Caffeine Malate)",
+      "Pink Himalayan Sea Salt"
+    ],
+    "benefits": [
+      "Unbelievable muscular endurance and extreme focus drive",
+      "Enhanced blood flow and nitric oxide muscular volume expansion",
+      "No post-workout crash or extreme nervous system jitters"
+    ],
+    "usage": "Mix 1 scoop with 10–12 oz of cold water and consume 20–30 minutes before training. Maintain structural hydration throughout your session."
+  },
+  {
+    "id": "creatine-pure",
+    "name": "Creapure Micronized Creatine",
+    "brand": "FitZone Science",
+    "category": "Strength",
+    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&q=80&w=600",
+    "description": "100% pure premium German Creapure pharmaceutical-grade creatine monohydrate. Designed to maximize ATP regeneration and absolute power output.",
+    "price": "$34.99",
+    "nutritionFacts": {
+      "servingSize": "1 Scoop (5g)",
+      "creatineMonohydrate": "5000mg",
+      "calories": "0 kcal",
+      "protein": "0g",
+      "carbs": "0g",
+      "fat": "0g"
+    },
+    "ingredients": [
+      "100% Pure Creapure Micronized Creatine Monohydrate"
+    ],
+    "benefits": [
+      "Substantially boosts skeletal muscle ATP reserves",
+      "Dramatically enhances explosive muscle power and work volume",
+      "Increases intracellular cellular hydration and density"
+    ],
+    "usage": "Consume 1 level scoop (5g) daily mixed with water, your post-workout protein shake, or carbohydrate juice. On training days, consume instantly post-exercise."
+  },
+  {
+    "id": "multivitamin-elite",
+    "name": "Daily Vitality Active Multi",
+    "brand": "FitZone Science",
+    "category": "Health & Vitality",
+    "image": "https://images.unsplash.com/photo-1616671276441-2f2c277b8bf2?auto=format&fit=crop&q=80&w=600",
+    "description": "Clinical grade vitamin, mineral, and antioxidant formulation customized for males and females engaged in rigorous athletic regimes.",
+    "price": "$29.99",
+    "nutritionFacts": {
+      "servingSize": "2 Capsules",
+      "vitaminA": "5000 IU (100% DV)",
+      "vitaminC": "250mg (417% DV)",
+      "vitaminD3": "2000 IU (500% DV)",
+      "zincChelated": "15mg (100% DV)",
+      "magnesiumGlycinate": "100mg (25% DV)"
+    },
+    "ingredients": [
+      "Vitamin Alpha-Complex",
+      "Organic Ashwagandha",
+      "Coenzyme Q10",
+      "Vegetarian Capsule Shell"
+    ],
+    "benefits": [
+      "Compensates for critical athletic micronutrient spending",
+      "Promotes optimal nervous system recovery and cellular health",
+      "Assists dynamic metabolic conversions during intense activity"
+    ],
+    "usage": "Take 2 capsules with breakfast or your earliest meal daily. Consuming with fats dramatically improves fat-soluble vitamin absorption rates."
+  }
+]
