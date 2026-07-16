@@ -74,6 +74,15 @@ const authenticateUser = (req: any, res: any, next: any) => {
   }
 };
 
+// ─── Health / Status Check ───────────────────────────────────────────────────
+app.get("/", (_req, res) => {
+  res.json({ status: "healthy", message: "FitZone Gym API is running" });
+});
+
+app.get("/api", (_req, res) => {
+  res.json({ status: "healthy", message: "FitZone Gym API is running" });
+});
+
 // ==========================================
 // USER AUTHENTICATION ENDPOINTS
 // ==========================================
