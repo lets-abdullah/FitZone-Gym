@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-gold-50: #fefcf0;
+  --color-gold-100: #fdf7df;
+  --color-gold-200: #f9eca5;
+  --color-gold-300: #f4dc6c;
+  --color-gold-400: #f0cb3a;
+  --color-gold-500: #d4af37; /* Premium Gold theme color */
+  --color-gold-600: #b8962b;
+  --color-gold-700: #92751f;
+  --color-gold-800: #6b5317;
+  --color-gold-900: #453410;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f4f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+body {
+  background-color: #fafaf9; /* Premium warm off-white alabaster */
+  color: #18181b; /* Soft charcoal */
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Base resets & additions */
+.text-transparent.bg-clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+}

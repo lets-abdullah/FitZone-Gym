@@ -1,0 +1,6 @@
+{
+  "name": "FitZone Gym Knowledge Hub",
+  "description": "A premium, modern knowledge base for FitZone Gym including membership details, trainer bios, calculators, and supplement guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
